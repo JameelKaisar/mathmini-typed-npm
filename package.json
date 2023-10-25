@@ -1,0 +1,22 @@
+{
+  "name": "mathmini-typed",
+  "version": "1.0.0",
+  "description": "Sample math library containing add and sub functions",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha -r ts-node/register tests/tests.ts"
+  },
+  "author": "Jameel Kaisar",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.3.9",
+    "@types/mocha": "^10.0.3",
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "homepage": "https://github.com/JameelKaisar/mathmini-typed-npm"
+}
