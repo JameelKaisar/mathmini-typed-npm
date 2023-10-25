@@ -1,6 +1,6 @@
 {
   "name": "mathmini-typed",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Sample math library containing add and sub functions",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
