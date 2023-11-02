@@ -7,8 +7,17 @@ npm install mathmini-typed
 ```
 
 # Usage
+## JavaScript
 ```js
 var mathmini = require('mathmini-typed');
+
+console.log(mathmini.add(10, 5));
+console.log(mathmini.sub(10, 5));
+```
+
+## TypeScript
+```ts
+import mathmini from 'mathmini-typed';
 
 console.log(mathmini.add(10, 5));
 console.log(mathmini.sub(10, 5));
