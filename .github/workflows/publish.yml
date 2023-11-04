@@ -13,6 +13,8 @@ jobs:
   build:
     name: Publish Package to NPM
     runs-on: ubuntu-22.04
+    needs:
+    - call-workflow
 
     steps:
       - uses: actions/checkout@v4
